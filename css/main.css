@@ -12,18 +12,19 @@ body{
     list-style: none;
 }
 .header{
-    background-color: #BC863D;
+    background-color: #5c3b11;
     height: 657px;
 }
 .chess__kit{
     padding: 10px 0;
 }
 .shoh__img{
-    display: flex;
+    display: inline-block;
     justify-content: flex-start;
+    flex-direction: column;
 }
 .shoh__img a{
-    display: inline-block;
+    display: block;
     padding: 10px;
     margin-top: 20px;
     justify-content: flex-start;
@@ -33,4 +34,106 @@ body{
     border-radius: 5px;
     box-shadow: 1px 1px 1px 1px #000;
     background-color: #fff;
+}
+.shohBack{
+    background-color: #BC863D;
+}
+
+.shaxmat__doska{
+    box-shadow: 1px 1px 1px #fff;
+    margin-left: -150px;
+    margin-top: 100px;
+    display: flex;
+    width: 490px;
+    height: 490px;
+}
+.chees{
+    display: flex;
+    width: 490px;
+    height: 490px;
+    border: 2px solid #000;
+    padding: 1px;
+    background-color: #000;
+}
+.chess__doska{
+    border: 2px solid #000;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.chess__black{
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    background-color: #000000;
+    /* opacity: 0.8; */
+    border: 0.1px solid #fff;
+}
+.chess__white{
+    width: 60px;
+    height: 60px;
+    background-color: #BC863D;
+    border: 0.1px solid #fff;
+    padding: 5px;
+}
+.chess__black span{
+    display: none;
+}
+.chess__white span{
+    display: none;
+}
+.chess__black-x{
+    background-color: rgb(221, 182, 182);
+}
+.chess__white-y{
+    background-color: #fff;
+    border: 0.1px solid #000;
+}
+.shaxmat__3d{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 100px;
+    justify-content: flex-end;
+    text-decoration: none;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #000;
+    background-color: #fff;
+}
+.shaxmat__3d h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.shaxmat__kordinata{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px;
+}
+.chees__x{
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+.chees__x:hover{
+    color: #000;
+}
+.chees__x span{
+    color: #000;
 }
